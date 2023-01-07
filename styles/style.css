@@ -14,17 +14,14 @@ header {
 
 }
 .banner-title {
-    font-weight: 400;
-    font-size: 65px;
+    font-weight: 700;
+    font-size: 30px;
 
 }
 .banner-content-right {
-    /* padding-top: 116px;
-    padding-right: 130px;
-    padding-left: 885px;
     text-align: right;
-    position: absolute; */
-    justify-content: right;
+    background-position: 50px right 100px;
+    padding-right: 230px;
 
 }
 
