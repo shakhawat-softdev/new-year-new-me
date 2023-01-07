@@ -8,24 +8,24 @@
 header {
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
-    /* min-height: 80vh; */
     height: 720px;
-    
+
 
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 30px;
 
 }
+
 .banner-content-right {
+
     text-align: right;
-    background-position: 50px right 100px;
-    padding-right: 230pxgi;
+    padding-top: 216px;
+    padding-right: 230px;
 
 }
-
-
 
 .banner-content-right button {
     padding: 30px 35px;
@@ -51,7 +51,12 @@ header {
     width: 400px;
     margin: 300px;
 }
-.container-text h2{
+
+.container-text {
+    padding-right: 130px;
+}
+
+.container-text h2 {
     margin-bottom: 15px;
     font-weight: 700;
     font-size: 40px;
@@ -112,10 +117,11 @@ header {
 /* FOOTER */
 
 .footer {
+
     display: flex;
     gap: 230px;
-    background-color: black;
     margin-top: 130px;
+    background-color: black;
     color: aliceblue;
     justify-content: center;
 }
@@ -123,7 +129,7 @@ header {
 .subscriber button {
     padding: 20px 36px;
     background: #FFFFFF;
-    color: red; 
+    color: red;
     border: none;
     margin-top: 24px;
     font-size: 20px;
@@ -136,14 +142,13 @@ header {
     padding-bottom: 130px;
     /* padding-left: 230px; */
     text-align: left;
-    
+
 }
 
 .subscriber {
     padding-top: 130px;
     padding-bottom: 243px;
-    /* padding-right: 5px; */
-    /* padding-left: 730px; */
+
 
 }
 
@@ -152,7 +157,7 @@ header {
 }
 
 input {
-    
+
     background-color: black;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
