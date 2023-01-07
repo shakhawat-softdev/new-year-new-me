@@ -42,36 +42,40 @@ header {
 /* Body Section */
 
 .contact {
-        margin-top:30px;
-        margin-right: 320px;
-        
+    margin-top: 30px;
+    margin-right: 320px;
+
 }
-.container{
+
+.container {
     /* width: 300PX; */
     display: flex;
     align-items: center;
 }
-.container img{
+
+.container img {
     width: 500px;
     margin: 400px;
 }
 
-.title-2{
+.title-2 {
     margin-bottom: 15px;
     font-weight: 700;
     font-size: 40px;
 }
-.container-text .container-list{
+
+.container-text .container-list {
     margin-top: 5px;
 }
 
 /* My plans */
-.my-plans{
+.my-plans {
     text-align: center;
     margin-bottom: 10px;
-    
+
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     gap: 80px;
     align-items: center;
@@ -79,4 +83,68 @@ header {
     justify-content: center;
     padding-top: 20px;
 }
+
 /* always keep */
+.always-keep {
+    background-image: url(/images/gradient2.png);
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 1000px;
+    margin-top: 124px;
+    margin-left: 200px;
+
+}
+
+.title-button-div {
+    padding-top: 70px;
+    padding-left: 65px;
+}
+
+.always-keep button {
+    padding: 20px 36px;
+    background-color: wheat;
+    color: red;
+    border-radius: 5px;
+    border: none;
+    margin-top: 24px;
+}
+
+.always-keep-title {
+    color: aliceblue;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    gap: 230px;
+    background-color: black;
+    margin-top: 130px;
+  
+    
+    color: aliceblue;
+}
+.subscriber button{
+    padding: 20px 36px;
+    background-color: wheat;
+    color: red;
+    border-radius: 5px;
+    border: none;
+    margin-top: 24px;
+}
+.future{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 230px;
+    text-align: left;
+}
+.subscriber{
+padding-top: 130px;
+padding-bottom: 243px;
+padding-right: 5px;
+padding-left: 730px;
+
+}
+.future-icon{
+    padding-top: 25px;
+}
