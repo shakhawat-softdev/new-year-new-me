@@ -21,7 +21,7 @@ header {
 .banner-content-right {
     text-align: right;
     background-position: 50px right 100px;
-    padding-right: 230px;
+    padding-right: 230pxgi;
 
 }
 
@@ -115,7 +115,7 @@ header {
     display: flex;
     gap: 230px;
     background-color: black;
-    /* margin-top: 130px; */
+    margin-top: 130px;
     color: aliceblue;
     justify-content: center;
 }
