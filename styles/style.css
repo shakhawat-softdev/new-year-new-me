@@ -89,7 +89,6 @@ header {
 /* always keep */
 .always-keep {
     background-image: url(../images/gradient2.png);
-    
     background-repeat: no-repeat;
     min-height: 300px;
     min-width: 1000px;
