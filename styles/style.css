@@ -31,37 +31,38 @@ header {
 }
 
 .banner-content-right button {
-    padding: 20px 25px;
+    padding: 30px 35px;
     background-color: red;
     color: aliceblue;
     border-radius: 5px;
     border: none;
     margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 /* Body Section */
 
-.contact {
+/* .contact {
     margin-top: 30px;
     margin-right: 320px;
 
-}
+} */
 
 .container {
-    /* width: 300PX; */
     display: flex;
     align-items: center;
 }
 
 .container img {
-    width: 500px;
-    margin: 400px;
+    width: 400px;
+    margin: 300px;
 }
-
-.title-2 {
+.container-text h2{
     margin-bottom: 15px;
     font-weight: 700;
     font-size: 40px;
+    margin-right: 320px;
 }
 
 .container-text .container-list {
@@ -102,11 +103,13 @@ header {
 
 .always-keep button {
     padding: 20px 36px;
-    background-color: wheat;
+    background: #FFFFFF;
     color: red;
     border-radius: 5px;
     border: none;
     margin-top: 24px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .always-keep-title {
@@ -120,31 +123,51 @@ header {
     gap: 230px;
     background-color: black;
     margin-top: 130px;
-  
-    
+
+
     color: aliceblue;
 }
-.subscriber button{
+
+.subscriber button {
     padding: 20px 36px;
-    background-color: wheat;
-    color: red;
-    border-radius: 5px;
+    background: #FFFFFF;
+    color: red; 
     border: none;
     margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
 }
-.future{
+
+.future {
     padding-top: 130px;
     padding-bottom: 130px;
     padding-left: 230px;
     text-align: left;
 }
-.subscriber{
-padding-top: 130px;
-padding-bottom: 243px;
-padding-right: 5px;
-padding-left: 730px;
+
+.subscriber {
+    padding-top: 130px;
+    padding-bottom: 243px;
+    padding-right: 5px;
+    padding-left: 730px;
 
 }
-.future-icon{
+
+.future-icon {
     padding-top: 25px;
+}
+
+input {
+    
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #F3F3F3;
+    margin-top: 20px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-right: 150px;
+    font-weight: 400;
+    font-size: 18px;
 }
