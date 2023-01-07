@@ -6,7 +6,8 @@
 
 /* Header part */
 header {
-    background-image: url(/images/banner/banner2.png);
+    /* background-image: url(/images/banner/banner2.png); */
+    background-image: url(./images/banner/banner2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,7 +88,8 @@ header {
 
 /* always keep */
 .always-keep {
-    background-image: url(/images/gradient2.png);
+    /* background-image: url(/images/gradient2.png); */
+    background-image: url(./images/gradient2.png);
     background-repeat: no-repeat;
     min-height: 300px;
     min-width: 1000px;
@@ -123,8 +125,6 @@ header {
     gap: 230px;
     background-color: black;
     margin-top: 130px;
-
-
     color: aliceblue;
 }
 
