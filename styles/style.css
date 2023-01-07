@@ -6,8 +6,8 @@
 
 /* Header part */
 header {
-    /* background-image: url(/images/banner/banner2.png); */
-    background-image: url(./banner/banner2.png);
+    background-image: url(../images/banner/banner2.png);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
