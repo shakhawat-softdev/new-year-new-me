@@ -7,29 +7,29 @@
 /* Header part */
 header {
     background-image: url(../images/banner/banner2.png);
-    
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
-    min-height: 80vh;
+    /* min-height: 80vh; */
+    height: 720px;
+    width: 1080px;
+    
 
 }
-
-.banner-content-right {
-    padding-top: 216px;
-    padding-right: 130px;
-    padding-left: 885px;
-    text-align: right;
-    position: absolute;
-
-}
-
 .banner-title {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 65px;
 
 }
+.banner-content-right {
+    /* padding-top: 116px;
+    padding-right: 130px;
+    padding-left: 885px;
+    text-align: right;
+    position: absolute; */
+    justify-content: right;
+
+}
+
+
 
 .banner-content-right button {
     padding: 30px 35px;
@@ -38,17 +38,13 @@ header {
     border-radius: 5px;
     border: none;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 600px;
     font-size: 20px;
 }
 
 /* Body Section */
 
-/* .contact {
-    margin-top: 30px;
-    margin-right: 320px;
 
-} */
 
 .container {
     display: flex;
