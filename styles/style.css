@@ -20,13 +20,14 @@ header {
     padding-right: 130px;
     padding-left: 885px;
     text-align: right;
+    position: absolute;
 
 }
 
 .banner-title {
     font-weight: 700;
     font-size: 65px;
-    
+
 }
 
 .banner-content-right button {
@@ -38,11 +39,29 @@ header {
     margin-top: 20px;
 }
 
-                                    /* Body Section */
-.falure-section{
+/* Body Section */
 
+.contact {
+        margin-top:30px;
+        margin-right: 320px;
+        
+}
+.container{
+    /* width: 300PX; */
+    display: flex;
+    align-items: center;
+}
+.container img{
+    width: 500px;
+    margin: 400px;
 }
 
-.falure-img{
-    background-image: url(/images/person.png);
+.title-2{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.container-text .container-list{
+    margin-top: 5px;
+
 }
